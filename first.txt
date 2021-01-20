@@ -1,4 +1,4 @@
-Gitno練習をしていきます。
+GitとGithubの使い方
 
 1。対象ファイルを更新
 
@@ -21,3 +21,6 @@ Gitno練習をしていきます。
 
 　入力したらesc->:qw
 
+6．Githubへpush
+　git push -u origin "brunch名"
+　git push -u origin main		//このファイルが保存されている先のブランチ名はmain
