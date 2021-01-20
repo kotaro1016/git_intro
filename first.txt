@@ -1,12 +1,23 @@
 Gitno練習をしていきます。
 
-Using 'master' as the name for the initial branch. This default branch name
-is subject to change. To configure the initial branch name to use in all
-of your new repositories, which will suppress this warning, call:
+1。対象ファイルを更新
 
-git config --global init.defaultBranch <name>
- 
-Names commonly chosen instead of 'master' are 'main', 'trunk' and
-'development'. The just-created branch can be renamed via this command:
+2．ターミナル起動
 
-git branch -m <name>
+3．ステージングに追加
+　git add .
+　git add "ファイル名"
+
+4．ローカルリポジトリに追加
+　git commit -v  //-v をつけると差分が表示される。
+
+5．vimが起動するのでコメントを記載
+
+　iを押下し、入力モードにはいる。
+
+　1行目：変更内容
+　2行目：空行
+　3行目：変更理由
+
+　入力したらesc->:qw
+
